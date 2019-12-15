@@ -1,0 +1,13 @@
+{
+  "version": 3,
+  "file": "index.js",
+  "sourceRoot": "../src/",
+  "sources": [
+    "index.coffee"
+  ],
+  "names": [],
+  "mappings": "AAAA;EAAA,MAAM,CAAC,OAAP,GAAoB,OAAO,MAAP,KAAkB,WAArB,GAAsC,OAAA,CAAQ,UAAR,CAAtC,GAA+D,OAAA,CAAQ,UAAR;AAAhF",
+  "sourcesContent": [
+    "module.exports = if typeof(window) is 'undefined' then require('./server') else require('./client')"
+  ]
+}
